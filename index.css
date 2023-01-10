@@ -1,0 +1,162 @@
+@keyframes go-backx {
+    from {
+      opacity: 0;
+      transform: translatex(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0);
+    }
+  }
+
+  @keyframes go-backy {
+    from {
+      opacity: 0;
+      transform: translatey(1000px);
+    }
+    to {
+      opacity: 1;
+      transform: translatey(0);
+    }
+  }
+
+
+body{
+    height: 100%;
+    overflow-x: hidden;
+    animation: go-backx 1s;
+}
+
+.bodyPage{
+    background: url(./imagens/capa.png)fixed,
+                url(./imagens/ruido.png)fixed,
+    linear-gradient(50deg,#ff4169,#7c26f8);
+    height:40em;
+}
+
+.bodyPage2{
+    background: url(./imagens/capa.png)fixed,
+    url(./imagens/ruido.png)fixed,
+    linear-gradient(50deg,#ff4169,#7c26f8);
+    height:40em;
+}
+
+footer{
+    background: black;
+    
+}
+
+.barraCabecalho{
+    background: rgba(1, 0, 0, 0.6);
+    
+}
+
+header a{
+    color: white;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+header a:hover{
+    color: #a6dbd5;
+}
+
+.legendaTopo{
+    font-size:6rem;
+    font-weight: 800;
+    padding: 10px 20px;
+    animation: go-backx 1.5s;
+}
+
+.btn-custom{
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 500px;
+    animation: go-backx 2s;
+}
+.btn-custom {
+	color: white;
+    text-transform: uppercase;
+    transition:0.4s;
+    padding: 10px 20px;
+}
+.btn-roxo {
+    
+	background: #7c25f8;
+}
+.btn-roxo:hover {
+	background: #6207e3;
+	color: white;
+}
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+.marginAlbuns{
+    padding: 10px 0;
+}
+.servicos h1{
+    color:#7c25f8;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.servicos h3{
+    color:#7c25f8;
+    font-weight: 700;
+}
+.espacamento{
+    padding-bottom:20px;
+    animation:go-backy 1s ;
+}
+
+.rotacionar{
+    transform: rotate(15deg);
+    
+   
+}
+.recursos h1{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.recursos h3{
+    color: #9bf0e1;
+    font-weight: 700;
+}
+
+.recursos p{
+    color: #fff;
+}
+
+
+footer{
+    padding: 100px 0px 0px 0xp;
+    animation: go-back 1s;
+}
+.footer{
+    padding: 10px 0;
+}
+
+.footer h4{
+    color:#919496;
+}
+.footer a{
+    color: white;
+}
+.footer ul a:hover{
+    color:#9bf0e1;
+    text-transform: none;
+}
+
+.carousel-control-prev{
+    padding-right: 2rem;
+}
+
+.carousel-control-next{
+    padding-left: 2rem;
+}
+
